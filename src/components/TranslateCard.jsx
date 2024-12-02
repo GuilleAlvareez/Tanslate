@@ -22,7 +22,7 @@ export function TranslateCard() {
     const languajeChange = (languajeCode) => {
         setLanguajesSelected(prevState => ({
             ...prevState,
-            src: languajeCode,
+            dst: languajeCode,
         }));
     };
 

@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef, useState } from "react"
-import { IconTranslate, IconCopy } from "./Icons"
+import { IconCopy } from "./Icons"
 import { Languajes } from "../contexts/Languajes"
 
 export function Card() {
